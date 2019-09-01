@@ -1,0 +1,21 @@
+{
+  "name": "firebase-auth0-nodeserver",
+  "version": "0.1.0",
+  "description": "Node.js server that authenticates with an Auth0 access token and returns a Firebase auth token.",
+  "repository": "https://github.com/auth0-blog/firebase-auth0-nodeserver",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "author": "ciriusblb for Auth0",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-jwt": "^5.3.0",
+    "firebase-admin": "^5.5.1",
+    "jwks-rsa": "^1.2.1"
+  },
+  "devDependencies": {}
+}
